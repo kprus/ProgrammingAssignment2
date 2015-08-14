@@ -1,6 +1,7 @@
 ## Cache the inverse of a square invertible matrix x
 
-## Create a matrix from x that can cache its own inverse
+## Create a matrix object containing a function that allows
+## the object to cache its own inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
